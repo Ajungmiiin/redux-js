@@ -1,8 +1,17 @@
-# React + Vite
+# Redux ) createStore 최소 구현체 직접 구현해보기
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 실행방법
+- npm install
+- npm run dev
 
-Currently, two official plugins are available:
+### 후기
+  원티드 프리온보딩 11월 1회차 강의에서 프론트 개발에서의 데이터의 흐름, 계산과 액션 등에 대해 설명해주시며 선택과제로 redux의 createStore 코드를 보며 최소구현체를 작성해보라는 과제를 받았다. <br/>
+  redux는 처음 리액트를 공부했을 때 처음 알게되었었는데 그 때 이후로 한번도 사용해본 적이 없었던 터라 나에겐 조금 어렵게 다가왔던 것 같다.
+  오픈소스를 뜯어보라는 말에 겁이 났지만 막상 createStore의 코드를 보니 주석을 제외한 실제 코드의 양이 그렇게 많지 않아서 신기했다. <br/>
+  처음 코드를 작성하기에 앞서 막막했었는데 FLUX패턴과 redux의 동작원리를 다시보며 코드를 작성해보니 생각했던 것 보다 그리 긴 시간이 걸리지 않고 완성 할 수 있었던 것 같았다.
+  <br/>
+  
+  해당 과제를 하며 생소했던 redux의 동작원리에 대해 잘 이해할 수 있었고, FLUX 패턴을 말로만 들었을 때는 아 이런식으로 흘러가는 구나 정도로만 생각하고 넘어갔었는데 직접 코드를 작성해보며 FLUX 패턴에 대해 더 잘 이해할 수 있던 계기가 된 것 같았다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 프로젝트 화면
+![image](https://github.com/user-attachments/assets/dc19b43a-a493-4dfc-9f18-ef97a3cb4b6b)
