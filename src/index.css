@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container .desc {
+  font-size: 1.5rem;
+}
+
+.desc > span {
+  color: #0077ff;
+}
+
+.button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.button-wrpa > p {
+  margin: 0;
+}
+
+section {
+  padding: 0.5rem 0;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  padding: 1rem;
+  background-color: #0077ff;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  transition: opacity 0.3s ease;
+  will-change: opacity;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.subscribe > button {
+}
